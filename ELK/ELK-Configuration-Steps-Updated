@@ -159,6 +159,8 @@ Start Elasticache - service elasticsearch start
 Start Logstash - service logstash start
 Start Kibana -service kibana start
 
+if kibana not working use :systemctl start kibana.service
+
 After sometime reboot nginx server as well.
 
 nginx - service nginx start
